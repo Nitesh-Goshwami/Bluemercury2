@@ -1,0 +1,39 @@
+#main{
+    width: 80%;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.myAccount{
+    display: flex;
+}
+
+h1{
+    flex: initial;
+    color: #12284c;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    font-family: Montserrat Regular,sans-serif;
+    font-style: normal;
+    transition: color .2s ease-in-out;
+    text-transform: uppercase;
+}
+
+#logout {
+    flex: initial;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 0 23px;
+    text-decoration: underline;
+    margin-top: 5px;
+    color: #12284c;  
+    margin-top: 20px;
+    background-color: white;
+    border: 0px;   
+}
+
+#logout:hover {
+    cursor: pointer;
+}
